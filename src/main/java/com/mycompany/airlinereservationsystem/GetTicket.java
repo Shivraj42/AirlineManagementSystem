@@ -78,66 +78,67 @@ public class GetTicket extends javax.swing.JInternalFrame {
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setText("First Name");
 
         firstname.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        firstname.setForeground(new java.awt.Color(255, 255, 255));
+        firstname.setForeground(new java.awt.Color(102, 102, 102));
         firstname.setText("-");
 
         lastname.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        lastname.setForeground(new java.awt.Color(255, 255, 255));
+        lastname.setForeground(new java.awt.Color(102, 102, 102));
         lastname.setText("-");
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setForeground(new java.awt.Color(102, 102, 102));
         jLabel5.setText("Last  Name");
 
         gender.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        gender.setForeground(new java.awt.Color(255, 255, 255));
+        gender.setForeground(new java.awt.Color(102, 102, 102));
         gender.setText("-");
 
         jLabel7.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setForeground(new java.awt.Color(102, 102, 102));
         jLabel7.setText("Gender");
 
         arrival.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        arrival.setForeground(new java.awt.Color(255, 255, 255));
+        arrival.setForeground(new java.awt.Color(102, 102, 102));
         arrival.setText("-");
 
         jLabel9.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setForeground(new java.awt.Color(102, 102, 102));
         jLabel9.setText("Arrival");
 
         jLabel10.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setForeground(new java.awt.Color(102, 102, 102));
         jLabel10.setText("Departure");
 
         departure.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        departure.setForeground(new java.awt.Color(255, 255, 255));
+        departure.setForeground(new java.awt.Color(102, 102, 102));
         departure.setText("-");
 
         jLabel12.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setForeground(new java.awt.Color(102, 102, 102));
         jLabel12.setText("Contact");
 
         contact.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        contact.setForeground(new java.awt.Color(255, 255, 255));
+        contact.setForeground(new java.awt.Color(102, 102, 102));
         contact.setText("-");
 
         jLabel14.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setForeground(new java.awt.Color(102, 102, 102));
         jLabel14.setText("Flight Name");
 
         flightname.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        flightname.setForeground(new java.awt.Color(255, 255, 255));
+        flightname.setForeground(new java.awt.Color(102, 102, 102));
         flightname.setText("-");
 
         jLabel16.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setForeground(new java.awt.Color(102, 102, 102));
         jLabel16.setText("Thanks for Choosing Stark Airways");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -233,7 +234,7 @@ public class GetTicket extends javax.swing.JInternalFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(347, 347, 347)
                         .addComponent(jButton1)))
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -246,7 +247,7 @@ public class GetTicket extends javax.swing.JInternalFrame {
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(8, Short.MAX_VALUE))
+                .addContainerGap(32, Short.MAX_VALUE))
         );
 
         pack();

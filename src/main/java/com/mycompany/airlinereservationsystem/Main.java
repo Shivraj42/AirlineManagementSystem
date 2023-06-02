@@ -4,6 +4,8 @@
  */
 package com.mycompany.airlinereservationsystem;
 
+import java.awt.Color;
+
 /**
  *
  * @author LEGION
@@ -15,6 +17,7 @@ public class Main extends javax.swing.JFrame {
      */
     public Main() {
         initComponents();
+        this.getContentPane().setBackground(Color.blue);
     }
 
     /**
@@ -40,6 +43,8 @@ public class Main extends javax.swing.JFrame {
         jMenuItem10 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setIconImages(null);
+        setSize(getMaximumSize());
 
         Desktop.setAutoscrolls(true);
 
@@ -47,12 +52,14 @@ public class Main extends javax.swing.JFrame {
         Desktop.setLayout(DesktopLayout);
         DesktopLayout.setHorizontalGroup(
             DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1253, Short.MAX_VALUE)
+            .addGap(0, 1300, Short.MAX_VALUE)
         );
         DesktopLayout.setVerticalGroup(
             DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 655, Short.MAX_VALUE)
+            .addGap(0, 677, Short.MAX_VALUE)
         );
+
+        jMenuBar1.setBackground(new java.awt.Color(0, 204, 255));
 
         jMenu1.setText("Customer");
 
@@ -131,7 +138,8 @@ public class Main extends javax.swing.JFrame {
             .addComponent(Desktop)
         );
 
-        pack();
+        setSize(new java.awt.Dimension(1314, 707));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed

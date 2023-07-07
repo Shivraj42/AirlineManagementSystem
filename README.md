@@ -11,6 +11,7 @@ Backend Language: Java
 GUI Framework: Java Swing
 Database Management System: MySQL
 MySQL Connector: MySQL Connector/J (JDBC driver)
+
 Key Features:
 
 Customer Management:
